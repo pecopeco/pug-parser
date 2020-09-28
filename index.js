@@ -246,7 +246,7 @@ Parser.prototype = {
       case 'class':
         this.tokens.defer({
           type: 'tag',
-          val: 'div',
+          val: 'view',
           line: this.peek().line,
           filename: this.filename
         });
